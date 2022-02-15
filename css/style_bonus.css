@@ -1,0 +1,144 @@
+
+:root {
+    --white: #ffffff;
+    --grey: #F6F8F9;
+    --lightblue: #14AAF5;
+    --orange: #FF9B00;
+    --green: #2CC6AB;
+    --red: #FF3535;
+    --violet: #AB5DE6;
+    --fuxia: #EC4A9D;
+}
+
+
+header {
+    background-color: var(--white);
+    height: 100px;     
+}
+
+body {
+    background-color:#F6F8F9;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.logo_img {
+    vertical-align: top;
+    height: 100px;
+ 
+}
+
+div{
+    line-height: 40px ;
+}
+
+.logo_text {
+    height: 100px;
+    line-height: 100px;
+}
+
+/* site_main */
+
+main {
+        width: 800px;
+        margin: auto;
+        margin-top: 50px;
+        background-color: white;
+
+}
+
+h3{
+    color: #4A4F58;
+}
+
+
+.task {
+    padding: 20px 30px 5px;
+}
+
+.add_task {
+    color: var(--white);
+    background-color: var(--lightblue);
+    padding: 8px 10px;
+    border-radius: 5px;
+    border-color: var(--lightblue);
+}
+
+.add_section {
+    color: #CFD5D9;
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border-color: #CFD5D9;  
+}
+
+hr {
+    border: 1px solid color: #CFD5D9;
+}
+
+.circle-checkmark {
+    color: #2CC6AB;
+    border: 1px solid #2CC6AB;
+    padding: 1px 4px;
+    border-radius: 50%;
+  }
+
+  .circle-crossmark {
+        color: #FF3535;
+        border: 1px solid #FF3535;
+        padding: 1px 4px;
+        border-radius: 50%;
+  }
+
+  .editorial {
+      color: white;
+      font-size: 12px;
+      background-color: #09A9ED;
+      padding: 5px 10px;
+      border-radius: 25px;
+  }
+
+  .Q1-Goals {
+    color: white;
+    font-size: 12px;
+    background-color:#AB5DE6;
+    padding: 5px 10px;
+    border-radius: 25px; 
+  }
+
+  .recruiting{
+    color: white;
+    font-size: 12px;
+    background-color:#2CC6AB;
+    padding: 5px 10px;
+    border-radius: 25px;   
+  }
+
+  .mobile{
+    color: white;
+    font-size: 12px;
+    background-color:#FF9B00;
+    padding: 5px 10px;
+    border-radius: 25px;     
+  }
+
+  .website{
+    color: white;
+    font-size: 12px;
+    background-color:#EC4A9D;
+    padding: 5px 10px;
+    border-radius: 25px;  
+  }
+
+  .sales {
+    color: white;
+    font-size: 12px;
+    background-color:#A3D116;
+    padding: 5px 10px;
+    border-radius: 25px;  
+  }
